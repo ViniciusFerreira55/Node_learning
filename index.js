@@ -1,6 +1,9 @@
-const {Person} = require("./person");
 
-const person = new Person('Leonardo')
+// const {Person} = require("./person");
 
 
-console.log(person.sayMyName());
+// require("./modules/fs")
+// const person = new Person('Leonardo')
+
+require("./modules/http");
+// console.log(person.sayMyName());
